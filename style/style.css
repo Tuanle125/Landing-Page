@@ -2,11 +2,117 @@ body {
     margin: 0;
 }
 header {
-    height: 150px;
+    height: 100px;
     background-color: rgb(24, 24, 24);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-header .title {
-    font-family: 'Saira Extra Condensed', sans-serif;
+.whisper-font {
+    font-family: 'Whisper', cursive;
+}
+.header-container {
+    /* border: 1px solid red; */
+    width: 1200px;
+    min-width: 520px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 16px;
     font-size: 30px;
     color: white;
+    /* font-weight: bold; */
 }
+header .title {
+    user-select: none;
+    
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+}
+
+.big-img-container {
+    /* height: 600px; */
+}
+.big-img {
+    object-fit: cover;
+    width: 100%;
+    height: 540px;
+}
+
+.img-select-container {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-select {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+}
+.img-list {
+    /* border: 1px solid red; */
+    flex: 1;
+    display: flex;
+    gap: 16px
+}
+.img-opt {
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+}
+.img-select .whisper-font {
+    font-size: 30px;
+}
+
+.present-img-container {
+    height: 600px;
+    background-color: rgb(24, 24, 24);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.present-img {
+    /* border: 1px solid red; */
+    width: 1200px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.part {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(234, 234, 234);
+}
+.part .title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.part-img {
+    height: 320px;
+    width: 320px;
+    border-radius: 100%;
+    object-fit: cover;
+    padding-bottom: 25px;
+}
+.des {
+    width: 300px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.btn-readmore {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: #c0bdaf;
+}
+
+
