@@ -115,4 +115,15 @@ header .title {
     color: #c0bdaf;
 }
 
-
+.blog-container {
+    border: 1px solid red;
+    background-color: rgb(24, 24, 24);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-subcontainer {
+    display: flex;
+    width: 1200px;
+}
