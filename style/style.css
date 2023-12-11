@@ -54,7 +54,7 @@ header .title {
     justify-content: center;
     align-items: center;
 }
-.img-select .des {
+.our-design {
     /* border: 1px solid red; */
     color: white;
     box-sizing: content-box;
@@ -135,11 +135,25 @@ header .title {
     align-items: center;
 }
 .blog-subcontainer {
+    border: 1px solid red;
     display: flex;
     width: 1200px;
+}
+.blog {
+    border: 5px solid orange;
+}
+.card {
+    display: flex;
 }
 
 .blog .title {
     text-transform: capitalize;
     font-family: 'Anton', sans-serif;
+}
+.content {
+    border: 5px solid blue;
+}
+.icon {
+    width: 50px;
+    height: 50px;
 }
