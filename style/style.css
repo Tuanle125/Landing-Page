@@ -138,3 +138,8 @@ header .title {
     display: flex;
     width: 1200px;
 }
+
+.blog .title {
+    text-transform: capitalize;
+    font-family: 'Anton', sans-serif;
+}
