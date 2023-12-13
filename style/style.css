@@ -187,7 +187,8 @@ header .title {
 .content .title {
     text-transform: capitalize;
     font-family: 'Anton', sans-serif;
-    color: white;
+    /* color: white; */
+    color: #c0bdaf;
     font-size: 16px;
 }
 .content-des {
