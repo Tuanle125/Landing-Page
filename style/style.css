@@ -8,6 +8,20 @@ header {
     align-items: center;
     justify-content: center;
 }
+.flx-1 {
+    flex: 1;
+}
+.icon {
+    width: 40px;
+    height: 40px;
+}
+.icon-2 {
+    width: 60px;
+    height: 60px;
+}
+.circle {
+    border-radius: 100px;
+}
 .whisper-font {
     font-family: 'Whisper', cursive;
 }
@@ -94,7 +108,7 @@ header .title {
 }
 .present-img {
     /* border: 1px solid red; */
-    width: 1200px;
+    width: 1100px;
     display: flex;
     gap: 40px;
     justify-content: center;
@@ -130,7 +144,7 @@ header .title {
 }
 
 .blog-container {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: rgb(24, 24, 24);
     height: 500px;
     display: flex;
@@ -138,25 +152,43 @@ header .title {
     align-items: center;
 }
 .blog-subcontainer {
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    gap: 50px;
     display: flex;
-    width: 1200px;
-}
-.blog {
-    border: 5px solid orange;
-}
-.card {
-    display: flex;
+    width: 1100px;
 }
 
-.blog .title {
+.card {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    /* border: 2px solid red; */
+    margin-top: 20px;
+}
+
+.blog-title {
     text-transform: capitalize;
     font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 30px;
 }
 .content {
-    border: 5px solid blue;
+    flex: 1;
+    /* border: 5px solid blue; */
 }
-.icon {
-    width: 50px;
-    height: 50px;
+.content .title {
+    text-transform: capitalize;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 16px;
+}
+.content-des {
+    text-align: start;
+    color: rgb(186, 186, 186);
+}
+.content-des2 {
+    width: 300px;
+    text-align: start;
+    color: rgb(186, 186, 186);
 }
