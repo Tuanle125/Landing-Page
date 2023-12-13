@@ -8,6 +8,13 @@ header {
     align-items: center;
     justify-content: center;
 }
+.truncate-3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+            line-clamp: 3; 
+    -webkit-box-orient: vertical;
+}
 .flx-1 {
     flex: 1;
 }
@@ -163,7 +170,7 @@ header .title {
     align-items: center;
     gap: 30px;
     /* border: 2px solid red; */
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .blog-title {
@@ -191,4 +198,8 @@ header .title {
     width: 300px;
     text-align: start;
     color: rgb(186, 186, 186);
+}
+.title-container {
+    display: flex;
+    justify-content: space-between;
 }
