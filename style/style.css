@@ -74,13 +74,14 @@ header .title {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid whitesmoke;
+    
 }
 .our-design {
     /* border: 1px solid red; */
     color: white;
     box-sizing: content-box;
     text-align:end;
+    border-bottom: 1px solid whitesmoke;
 }
 .img-select {
     /* border: 1px solid red; */
@@ -203,4 +204,33 @@ header .title {
 .title-container {
     display: flex;
     justify-content: space-between;
+}
+
+footer {
+    background: rgb(16,16,16);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content {
+    margin: 20px;
+    /* border: 1px solid red; */
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-content .logo {
+    color: white;
+    font-size: 50px;
+}
+.copyright {
+    display: flex;
+    gap:10px;
+    align-items: center;
+    /* border: 1px solid red; */
+    font-size: 16px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
